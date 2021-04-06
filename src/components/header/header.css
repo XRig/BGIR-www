@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* background: rgb(30, 30, 30); */
+    /* background: linear-gradient(90deg, rgba(10, 10, 310, 0) 0%, rgba(10, 10, 10, 1) 25%, rgba(10, 10, 10, 1) 75%, rgba(10, 10, 10, 0) 100%); */
+    color: #E7E4B5;
+    animation: fadein 3s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.header-title-box {
+    text-align: center;
+}
+
+.header-line {
+    background-color: #c2ba49;
+    margin: auto;
+    width: 80%;
+    height: 2px;
+}
+
+.title {
+    font-family: 'Playfair Display SC', serif;
+    font-size: xx-large;
+    padding: 5px 0;
+    width: 100%;
+}
+
+.subtitle {
+    font-family: 'Playfair Display SC', serif;
+    padding: 5px 0;
+}
